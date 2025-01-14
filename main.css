@@ -1,8 +1,27 @@
 time {
-    display: block;
+    display: grid;
 }
 
 .post {
     margin-bottom: 24px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+
+header {
+    background-color: rgb(16, 16, 20);
+    color: orangered;
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+.alert,
+h2 {
+    padding: 12px;
 }
 
